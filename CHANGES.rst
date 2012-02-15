@@ -1,6 +1,8 @@
 0.9 (in development)
 ====================
 
+- #43: Added Russian translation (thanks to Andrey Cherepanov)
+
 
 0.8.1 (Feb 11, 2012)
 ====================
