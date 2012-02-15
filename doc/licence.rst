@@ -12,8 +12,10 @@ Then following people (listed in alphabetical order) contributed to |synaptiks|.
 .. when adding contributors here, make sure that they agreed in makeing their email
 .. adress public, and obfuscate the address by omitting the at
 
+* Andrey Cherepanov <sibskull gmail.com>
 * Martin Schlander <mschlander opensuse.org>
 * Mehmet Nur Olcay <mnurolcay gmail.com>
+* Pavel Fric
 * Valentyn Pavliuchenko <valentyn.pavliuchenko gmail.com>
 
 
