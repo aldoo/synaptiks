@@ -17,7 +17,9 @@ X-KDE-Weight=65
 Name=Touchpad
 Name[de]=Touchpad
 Name[ru]=Сенсорная панель
+Name[it]=Touchpad
 
 Comment=Touchpad configuration
 Comment[de]=Touchpad-Konfiguration
 Comment[ru]=Настройка сенсорной панели
+Comment[it]=Configurazione del touchpad
