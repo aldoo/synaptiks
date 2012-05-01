@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: synaptiks 0.6.2\n"
 "Report-Msgid-Bugs-To: lunaryorn@googlemail.com\n"
 "POT-Creation-Date: 2011-06-09 19:47+0200\n"
-"PO-Revision-Date: 2012-03-02 01:10+0100\n"
+"PO-Revision-Date: 2012-05-01 22:28+0200\n"
 "Last-Translator: Fabio S. <fa0sck@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -500,28 +500,29 @@ msgstr "Per tutti i movimenti, non solo il trascinamento"
 #: rc.py:186
 msgctxt "@title:window tapping settings"
 msgid "Tapping"
-msgstr "Tocco"
+msgstr "Colpetto clic"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, generalSettingsGroup)
 #: rc.py:189
 msgctxt "@title:group"
 msgid "General tapping settings"
-msgstr "Impostazioni generali del tocco"
+msgstr "Impostazioni generali del colpetto clic"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:26
 #. i18n: ectx: property (text), widget (QCheckBox, touchpad_fast_taps)
 #: rc.py:192
 msgctxt "@option:check"
 msgid "Make single taps faster and double taps slower (fast taps)"
-msgstr "Tocco singolo più veloce e doppio tocco più lento (tocco rapido)"
+msgstr "Colpetto clic singolo più veloce e doppio colpetto clic più lento (colpetti "
+"rapidi)"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:36
 #. i18n: ectx: property (title), widget (QGroupBox, tappingButtonGroup)
 #: rc.py:195
 msgctxt "@title:group"
 msgid "Mouse clicks triggered by tapping"
-msgstr "Clic del mouse richiamati dal tocco"
+msgstr "Clic del mouse richiamati dal colpetto"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:49
 #. i18n: ectx: property (text), widget (QLabel, topLeftLabel)
@@ -542,21 +543,21 @@ msgstr "Angolo destro in alto"
 #: rc.py:204
 msgctxt "@label:listbox"
 msgid "Tapping with one finger"
-msgstr "Tocco con un dito"
+msgstr "Colpetto clic con un dito"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:117
 #. i18n: ectx: property (text), widget (QLabel, twoFingerLabel)
 #: rc.py:207
 msgctxt "@label:listbox"
 msgid "Tapping with two fingers"
-msgstr "Tocco con due dita"
+msgstr "Colpetto clic con due dita"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:127
 #. i18n: ectx: property (text), widget (QLabel, threeFingerLabel)
 #: rc.py:210
 msgctxt "@label:listbox"
 msgid "Tapping with three fingers"
-msgstr "Tocco con tre dita"
+msgstr "Colpetto clic con tre dita"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:158
 #. i18n: ectx: property (text), widget (QLabel, bottomLeftLabel)
@@ -579,7 +580,8 @@ msgctxt "@option:check"
 msgid ""
 "Drag items by tapping the touchpad and then immediately touching it again"
 msgstr ""
-"Trascina gli oggetti toccando il touchpad e subito dopo toccandolo ancora"
+"Trascina gli oggetti colpendo gentilmente il touchpad e subito dopo "
+"toccandolo ancora"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:211
 #. i18n: ectx: property (text), widget (QCheckBox, touchpad_locked_drags)
