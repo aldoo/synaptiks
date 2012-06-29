@@ -16,6 +16,7 @@ Then following people (listed in alphabetical order) contributed to |synaptiks|.
 * Martin Schlander <mschlander opensuse.org>
 * Mehmet Nur Olcay <mnurolcay gmail.com>
 * Pavel Fric
+* Pierre Buard <pierre.buard gmail.com>
 * Valentyn Pavliuchenko <valentyn.pavliuchenko gmail.com>
 
 
