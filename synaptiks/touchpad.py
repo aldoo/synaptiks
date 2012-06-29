@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -59,7 +59,7 @@
     >>> touchpad.finger_detection
     1
 
-    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@googlemail.com>
+    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@gmail.com>
 """
 
 

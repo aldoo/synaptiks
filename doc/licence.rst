@@ -1,9 +1,9 @@
 Credits and licence
 ===================
 
-|synaptiks| copyright © 2009-2012 Sebastian Wiesner <lunaryorn googlemail.com>
+|synaptiks| copyright © 2009-2012 Sebastian Wiesner <lunaryorn gmail.com>
 
-Documentation copyright © 2009-2012 Sebastian Wiesner <lunaryorn googlemail.com>
+Documentation copyright © 2009-2012 Sebastian Wiesner <lunaryorn gmail.com>
 
 .. rubric:: Contributors
 

@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
-# Copyright (c) 2010, 2011, 2012, Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (c) 2010, 2011, 2012, Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -62,7 +62,7 @@ setup(
     version=str(synaptiks.__version__),
     url=str(synaptiks.WEBSITE_URL),
     author='Sebastian Wiesner',
-    author_email='lunaryorn@googlemail.com',
+    author_email='lunaryorn@gmail.com',
     description='A KDE touchpad configuration and management tool',
     long_description=long_description,
     platforms='X11',

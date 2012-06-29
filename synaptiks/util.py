@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) 2010, 2011 Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (C) 2010, 2011 Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -30,7 +30,7 @@
 
     General utilities used throughout synaptiks.
 
-    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@googlemail.com>
+    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@gmail.com>
 """
 
 from __future__ import (print_function, division, unicode_literals,

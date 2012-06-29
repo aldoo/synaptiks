@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2010, 2011, 2012, Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (c) 2010, 2011, 2012, Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -96,7 +96,7 @@
 
     .. _XDG Desktop Application Autostart Specification: http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
 
-    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@googlemail.com>
+    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@gmail.com>
 """
 
 from __future__ import (print_function, division, unicode_literals,
@@ -419,7 +419,7 @@ def main():
     parser = ArgumentParser(
         description='synaptiks touchpad configuration utility',
         epilog="""\
-Copyright (C) 2010 Sebastian Wiesner <lunaryorn@googlemail.com>,
+Copyright (C) 2010 Sebastian Wiesner <lunaryorn@gmail.com>,
 distributed under the terms of the BSD License""")
     parser.add_argument('--version', help='Show synaptiks version',
                         action='version', version=__version__)
