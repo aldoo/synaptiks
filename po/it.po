@@ -580,7 +580,7 @@ msgctxt "@option:check"
 msgid ""
 "Drag items by tapping the touchpad and then immediately touching it again"
 msgstr ""
-"Trascina gli oggetti colpendo gentilmente il touchpad e subito dopo "
+"Trascina gli oggetti colpendo lievemente il touchpad e subito dopo "
 "toccandolo ancora"
 
 #. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:211
