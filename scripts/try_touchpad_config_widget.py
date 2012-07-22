@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
-# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -47,7 +47,7 @@ def main():
         KAboutData.License_BSD,
         ki18n('Copyright (C) 2009, 2010 Sebastian Wiesner'))
     about.addAuthor(ki18n('Sebastian Wiesner'), ki18n('Maintainer'),
-                    'lunaryorn@googlemail.com')
+                    'lunaryorn@gmail.com')
     about.addCredit(ki18n('Valentyn Pavliuchenko'),
                     ki18n('Debian packaging, russian translation, '
                           'bug reporting and testing'),

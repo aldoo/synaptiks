@@ -13,10 +13,12 @@ X-DBUS-ServiceName=de.lunaryorn.synaptiks
 
 Name=synaptiks
 Name[de]=synaptiks
+Name[fr]=synaptiks
 Name[ru]=synaptiks
 Name[it]=synaptiks
 
 GenericName=Touchpad management
 GenericName[de]=Touchpad-Verwaltung
+GenericName[fr]=Gestion du pavé tactile
 GenericName[ru]=Управление сенсорной панелью
 GenericName[it]=Gestione del touchpad

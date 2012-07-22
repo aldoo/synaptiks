@@ -1,14 +1,14 @@
 # German translations for synaptiks package.
 # This file is put in the public domain.
-# Sebastian Wiesner <lunaryorn@googlemail.com>, 2010.
+# Sebastian Wiesner <lunaryorn@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: synaptiks 0.5.0\n"
-"Report-Msgid-Bugs-To: lunaryorn@googlemail.com\n"
+"Report-Msgid-Bugs-To: lunaryorn@gmail.com\n"
 "POT-Creation-Date: 2011-06-09 19:47+0200\n"
 "PO-Revision-Date: 2011-06-09 19:48+0200\n"
-"Last-Translator: Sebastian Wiesner <lunaryorn@googlemail.com>\n"
+"Last-Translator: Sebastian Wiesner <lunaryorn@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -701,7 +701,7 @@ msgstr "Sebastian Wiesner"
 #: synaptiks/kde/__init__.py:73
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lunaryorn@googlemail.com"
+msgstr "lunaryorn@gmail.com"
 
 #: synaptiks/kde/__init__.py:74
 msgctxt "author name"

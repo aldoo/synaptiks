@@ -2,6 +2,7 @@
 ====================
 
 - #43: Added Russian translation (thanks to Andrey Cherepanov)
+- Added French translation (thanks to Pierre Buard)
 
 
 0.8.1 (Feb 11, 2012)

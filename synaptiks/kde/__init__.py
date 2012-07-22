@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (c) 2010, 2011, Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -30,7 +30,7 @@
 
     KDE specific modules of synaptiks.
 
-    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@googlemail.com>
+    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@gmail.com>
 """
 
 from __future__ import (print_function, division, unicode_literals,
@@ -73,7 +73,7 @@ def make_about_data(description):
                         ki18nc('EMAIL OF TRANSLATORS', 'Your emails'))
     about.addAuthor(ki18nc('author name', 'Sebastian Wiesner'),
                     ki18nc('author task', 'Maintainer'),
-                    'lunaryorn@googlemail.com')
+                    'lunaryorn@gmail.com')
     about.addCredit(ki18nc('credit name', 'Valentyn Pavliuchenko'),
                     ki18nc('credit task', 'Debian packaging, russian '
                            'translation, bug reporting and testing'),

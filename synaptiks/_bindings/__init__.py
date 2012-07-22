@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) 2010, 2011, 2012 Sebastian Wiesner <lunaryorn@googlemail.com>
+# Copyright (C) 2010, 2011, 2012 Sebastian Wiesner <lunaryorn@gmail.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -38,5 +38,5 @@
        API provided by :mod:`synaptiks.x11` and :mod:`synaptiks.touchpad` is
        the right choice.
 
-    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@googlemail.com>
+    .. moduleauthor::  Sebastian Wiesner  <lunaryorn@gmail.com>
 """
