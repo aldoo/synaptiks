@@ -69,13 +69,6 @@ The touchpad configuration module is available in |systemsettings| under
       The acceleration between :guilabel:`Minimum speed` and :guilabel:`Maximum
       speed`
 
-:guilabel:`Continue cursor motion when hitting the touchpad edge`
-   Continue the cursor move while the finger stays in the touchpad edge
-
-   :guilabel:`For all movements, not only dragging`
-      Always continue cursor movement, when hitting the touchpad edge, not only
-      when dragging
-
 
 .. _commands-scrolling-configuration:
 
@@ -151,13 +144,6 @@ The touchpad configuration module is available in |systemsettings| under
 .. figure:: tapping.png
 
    Screenshot of the tapping configuration page
-
-:guilabel:`General tapping settings`
-
-   :guilabel:`Make single taps faster and double taps slower (fast taps)`
-      Enable or disable fast taps.  If fast taps are enabled, the driver will
-      react faster on single taps, but slower on double clicks caused by double
-      taps.
 
 :guilabel:`Mouse clicks triggered by tapping`
     :guilabel:`Top left corner`

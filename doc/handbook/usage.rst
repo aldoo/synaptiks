@@ -41,12 +41,6 @@ though the touchpad does not actually have one.  In this case, the middle mouse
 button is triggered by pressing the left mouse button and the right mouse
 button at the same time.
 
-Some systems have a circular touchpad.  Unfortunately the touchpad driver does
-not detect circular touchpad automatically, so if you have a circular touchpad,
-please enable :guilabel:`The touchpad is circular` to let the driver know, that
-your touchpad is circular.
-
-
 .. _motion-configuration:
 
 Motion configuration

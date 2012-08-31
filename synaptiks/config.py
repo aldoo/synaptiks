@@ -173,7 +173,6 @@ class TouchpadConfiguration(MutableMapping):
 
     CONFIG_KEYS = frozenset([
         'minimum_speed', 'maximum_speed', 'acceleration_factor',
-        'edge_motion_always', 'fast_taps',
         'rt_tap_action', 'rb_tap_action', 'lt_tap_action', 'lb_tap_action',
         'f1_tap_action', 'f2_tap_action', 'f3_tap_action',
         'tap_and_drag_gesture', 'locked_drags', 'locked_drags_timeout',
@@ -182,7 +181,7 @@ class TouchpadConfiguration(MutableMapping):
         'vertical_scrolling_distance', 'horizontal_scrolling_distance',
         'vertical_two_finger_scrolling', 'horizontal_two_finger_scrolling',
         'circular_scrolling', 'circular_scrolling_trigger',
-        'circular_scrolling_distance', 'circular_touchpad'])
+        'circular_scrolling_distance'])
 
     @classmethod
     def load(cls, touchpad, filename=None):
