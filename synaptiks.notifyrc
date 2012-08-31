@@ -1,12 +1,18 @@
 [Global]
 IconName=synaptiks
 Comment=synaptiks
+Comment[uk]=synaptiks
 Name=synaptiks
+Name[uk]=synaptiks
 
 [Event/touchpadOn]
 Name=Touchpad is on
+Name[uk]=Сенсорний пристрій увімкнено
 Comment=The touchpad is on now
+Comment[uk]=Тепер сенсорний пристрій увімкнено
 
 [Event/touchpadOff]
 Name=Touchpad is off
+Name[uk]=Сенсорний пристрій вимкнено
 Comment=The touchpad is off now
+Comment[uk]=Тепер сенсорний пристрій вимкнено
