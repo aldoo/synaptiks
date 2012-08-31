@@ -3,7 +3,7 @@ Exec=synaptiks
 Type=Application
 Terminal=false
 Icon=synaptiks
-Categories=Qt;KDE;Utility;HardwareSettings;
+Categories=Qt;KDE;Utility;HardwareSettings;Settings;
 OnlyShowIn=KDE;
 
 X-KDE-StartupNotify=false
