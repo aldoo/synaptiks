@@ -11,9 +11,9 @@ X-KDE-StartupNotify=true
 X-DBUS-StartupType=Unique
 X-DBUS-ServiceName=de.lunaryorn.synaptiks
 
-Name=synaptiks
-Name[de]=synaptiks
-Name[ru]=synaptiks
+Name=Synaptiks
+Name[de]=Synaptiks
+Name[ru]=Synaptiks
 
 GenericName=Touchpad management
 GenericName[de]=Touchpad-Verwaltung
