@@ -3,7 +3,8 @@
 
 - #43: Added Russian translation (thanks to Andrey Cherepanov)
 - Added French translation (thanks to Pierre Buard)
-
+- Removed fast_taps, circular_touchpad, and edge_motion features, which will
+  be removed in a future version of the synaptics driver
 
 0.8.1 (Feb 11, 2012)
 ====================

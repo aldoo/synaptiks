@@ -196,14 +196,6 @@ Whether the touchpad is off or not.  Three valid values:
     acceleration_factor = _move_speed_property(
         2, 'The acceleration factor of cursor movement as float')
 
-    edge_motion_always = device_property(
-        'Synaptics Edge Motion Always', 'bool', 0,
-        '``True`` if edge motion is enabled, ``False`` otherwise.')
-
-    fast_taps = device_property(
-        'Synaptics Tap FastTap', 'bool', 0,
-        '``True`` if edge taps are enabled, ``False`` otherwise.')
-
     _tap_action_property = partial(device_property,
                                    'Synaptics Tap Action', 'byte')
     rt_tap_action = _tap_action_property(
@@ -290,11 +282,6 @@ generate a single scroll event.
 """)
     circular_scrolling_distance.convert_from_property = math.degrees
     circular_scrolling_distance.convert_to_property = math.radians
-
-    circular_touchpad = device_property(
-        'Synaptics Circular Pad', 'bool', 0,
-        '``True``, if the touchpad is considered circular, ``False`` '
-        'otherwise')
 
     @property
     def coasting(self):

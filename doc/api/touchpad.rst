@@ -27,8 +27,6 @@ The touchpad class
 
    .. autoattribute:: acceleration_factor
 
-   .. autoattribute:: edge_motion_always
-
    .. rubric:: scrolling properties
 
    .. autoattribute:: vertical_edge_scrolling
@@ -54,8 +52,6 @@ The touchpad class
    .. autoattribute:: circular_scrolling_distance
 
    .. rubric:: tapping properties
-
-   .. autoattribute:: fast_taps
 
    .. autoattribute:: rt_tap_action
 

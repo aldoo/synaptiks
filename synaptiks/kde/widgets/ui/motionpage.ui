@@ -81,22 +81,6 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="edgeMotionGroup">
-     <property name="title">
-      <string comment="@title:group">Continue cursor motion when hitting the touchpad edge</string>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <item>
-       <widget class="QCheckBox" name="touchpad_edge_motion_always">
-        <property name="text">
-         <string comment="@option:radio">For all movements, not only dragging</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

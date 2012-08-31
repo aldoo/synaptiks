@@ -15,22 +15,6 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <widget class="QGroupBox" name="generalSettingsGroup">
-     <property name="title">
-      <string comment="@title:group">General tapping settings</string>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout_4">
-      <item>
-       <widget class="QCheckBox" name="touchpad_fast_taps">
-        <property name="text">
-         <string comment="@option:check">Make single taps faster and double taps slower (fast taps)</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
     <widget class="QGroupBox" name="tappingButtonGroup">
      <property name="title">
       <string comment="@title:group">Mouse clicks triggered by tapping</string>
