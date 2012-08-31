@@ -74,7 +74,7 @@ class MouseDevice(namedtuple('_MouseDevice', ['serial', 'name'])):
         # device.  The parent represents the actual physical device.  The name
         # may be decorated with quotation marks, which are removed for the sake
         # of a clean represenation
-        return cls(device['ID_SERIAL'], device.parent['NAME'].strip('"'))
+        return cls(device.get('ID_SERIAL'), device.parent['NAME'].strip('"'))
 
 
 class MouseDevicesMonitor(QObject):
