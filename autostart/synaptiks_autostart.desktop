@@ -15,8 +15,10 @@ Name=Synaptiks
 Name[de]=Synaptiks
 Name[fr]=Synaptiks
 Name[ru]=Synaptiks
+Name[it]=Synaptiks
 
 GenericName=Touchpad management
 GenericName[de]=Touchpad-Verwaltung
 GenericName[fr]=Gestion du pavé tactile
 GenericName[ru]=Управление сенсорной панелью
+GenericName[it]=Gestione del touchpad

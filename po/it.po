@@ -1,0 +1,855 @@
+# Italian translations for synaptiks package.
+# This file is put in the public domain.
+#
+# Fabio S. <fa0sck@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: synaptiks 0.6.2\n"
+"Report-Msgid-Bugs-To: lunaryorn@gmail.com\n"
+"POT-Creation-Date: 2011-06-09 19:47+0200\n"
+"PO-Revision-Date: 2012-05-01 22:28+0200\n"
+"Last-Translator: Fabio S. <fa0sck@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. i18n: file: synaptiks/kde/widgets/ui/hardwarepage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, HardwarePage)
+#: rc.py:3
+msgctxt "@title:window hardware settings and information"
+msgid "Hardware"
+msgstr "Hardware"
+
+#. i18n: file: synaptiks/kde/widgets/ui/hardwarepage.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.py:6
+msgid "Hardware information"
+msgstr "Informazioni sull'hardware"
+
+#. i18n: file: synaptiks/kde/widgets/ui/hardwarepage.ui:32
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.py:9
+msgid "Hardware settings"
+msgstr "Impostazioni dell'hardware"
+
+#. i18n: file: synaptiks/kde/widgets/ui/hardwarepage.ui:38
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.py:12
+msgctxt "@info"
+msgid "Please enable this setting, if your touchpad is circular."
+msgstr "Abilita questa impostazione se il touchpad è circolare."
+
+#. i18n: file: synaptiks/kde/widgets/ui/hardwarepage.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_circular_touchpad)
+#: rc.py:15
+msgctxt "@option:check"
+msgid "The touchpad is circular"
+msgstr "Il touchpad è circolare"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, AutoTouchpadControlPage)
+#: rc.py:18
+msgctxt "@title:window"
+msgid "Touchpad management"
+msgstr "Gestione del touchpad"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:21
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autostart)
+#: rc.py:21
+msgctxt "@option:check"
+msgid "Automatically start at logon"
+msgstr "Avvia automaticamente all'accesso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:28
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, management_monitor_mouses)
+#: rc.py:24
+msgctxt "@info:whatsthis"
+msgid ""
+"Automatically switch off touchpad, if a mouse is plugged in. If the mouse is "
+"unplugged, the touchpad is switched on again."
+msgstr ""
+"Disattiva automaticamente il touchpad se viene collegato un mouse. Se il "
+"mouse è scollegato, il touchpad verrà nuovamente attivato."
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, management_monitor_mouses)
+#: rc.py:27
+msgctxt "@option:check"
+msgid "Automatically switch off touchpad, if a mouse is plugged"
+msgstr "Disattiva automaticamente il touchpad se viene collegato un mouse"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.py:30
+msgctxt "@label"
+msgid "Ignore the following mouse devices"
+msgstr "Ignora i seguenti dispositivi di puntamento"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:53
+#. i18n: ectx: property (whatsThis), widget (MouseDevicesView, management_ignored_mouses)
+#: rc.py:33
+msgctxt "@info:whatsthis"
+msgid ""
+"All checked mouse devices are ignored. If such a mouse is plugged, the "
+"touchpad will remain on."
+msgstr ""
+"Tutti i dispositivi di puntamento con il segno di spunta vengono ignorati. Il "
+"touchpad resterà attivo anche se qualcuno di questi dispositivi è collegato."
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:66
+#. i18n: ectx: property (title), widget (QGroupBox, management_monitor_keyboard)
+#: rc.py:36
+msgctxt "@option:check"
+msgid "Automatically switch off touchpad on keyboard activity"
+msgstr "Disattiva automaticamente il touchpad mentre si digita sulla tastiera"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.py:39
+msgctxt "@label:listbox"
+msgid "Ignore these keys"
+msgstr "Ignora questi tasti"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:96
+#. i18n: ectx: property (toolTip), widget (KComboBox, management_keys_to_ignore)
+#: rc.py:42
+msgctxt "@info:tooltip"
+msgid ""
+"<para>These keys will be ignored when monitoring the keyboard:</para>\n"
+"<para>\n"
+"<list>\n"
+"<item><interface>No keys</interface>:  No keys are ignored.  Every key "
+"causes the touchpad to be switched off.</item>\n"
+"<item><interface>Modifier keys</interface>: Modifier keys (e.g. Shift, Ctrl) "
+"are ignored.  Every other key causes the touchpad to be switched off, even "
+"when pressed in combination with a modifier key (e.g. Ctrl+S).</item>\n"
+"<item><interface>Modifier combinations</interface>: Modifier keys and normal "
+"keys in combination with modifier keys are ignored.  Every other key causes "
+"the touchpad to be switched off. Note, that even Shift-combinations for "
+"uppercase letters are ignored with this setting.</item>\n"
+"</list>"
+msgstr ""
+"<para>Questi tasti verranno ignorati quando è attivo il monitoraggio della "
+"tastiera:</para>\n"
+"<para>\n"
+"<list>\n"
+"<item><interface>Nessun tasto</interface>:  Non sarà ignorato alcun tasto. La "
+"pressione di ogni tasto provocherà la disattivazione del touchpad.</item>\n"
+"<item><interface>Tasti modificatori</interface>: I tasti modificatori (ad "
+"esempio Shift, Ctrl) verranno ignorati. La pressione di ogni altro tasto "
+"provocherà la disattivazione del touchpad, anche quando il tasto viene "
+"premuto in combinazione con un tasto modificatore (esempio: Ctrl+S).</item>\n"
+"<item><interface>Combinazioni con i modificatori</interface>: I tasti "
+"modificatori e i tasti normali in combinazione con i modificatori verranno "
+"ignorati. La pressione di ogni altro tasto provocherà la disattivazione del "
+"touchpad. Si nota che con questa impostazione verranno ignorate anche le "
+"combinazioni con Shift per inserire le lettere maiuscole.</item>\n"
+"</list>"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:105
+#. i18n: ectx: property (whatsThis), widget (KComboBox, management_keys_to_ignore)
+#: rc.py:51
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>These keys will be ignored when monitoring the keyboard:</para>\n"
+"<para>\n"
+"<list>\n"
+"<item><interface>No keys</interface>:  No keys are ignored.  Every key "
+"causes the touchpad to be switched off.</item>\n"
+"<item><interface>Modifier keys</interface>: Modifier keys (e.g. Shift, Ctrl) "
+"are ignored.  Every other key causes the touchpad to be switched off, even "
+"when pressed in combination with a modifier key (e.g. Ctrl+S).</item>\n"
+"<item><interface>Modifier combinations</interface>: Modifier keys and normal "
+"keys in combination with modifier keys are ignored.  Every other key causes "
+"the touchpad to be switched off. Note, that even Shift-combinations for "
+"uppercase letters are ignored with this setting.</item>\n"
+"</list>"
+msgstr ""
+"<para>Questi tasti verranno ignorati quando è attivo il monitoraggio della "
+"tastiera:</para>\n"
+"<para>\n"
+"<list>\n"
+"<item><interface>Nessun tasto</interface>:  Non sarà ignorato alcun tasto. La "
+"pressione di ogni tasto provocherà la disattivazione del touchpad.</item>\n"
+"<item><interface>Tasti modificatori</interface>: I tasti modificatori (ad "
+"esempio Shift, Ctrl) verranno ignorati. La pressione di ogni altro tasto "
+"provocherà la disattivazione del touchpad, anche quando il tasto viene "
+"premuto in combinazione con un tasto modificatore (esempio: Ctrl+S).</item>\n"
+"<item><interface>Combinazioni con i modificatori</interface>: I tasti "
+"modificatori e i tasti normali in combinazione con i modificatori verranno "
+"ignorati. La pressione di ogni altro tasto provocherà la disattivazione del "
+"touchpad. Si nota che con questa impostazione verranno ignorate anche le "
+"combinazioni con Shift per inserire le lettere maiuscole.</item>\n"
+"</list>"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:112
+#. i18n: ectx: property (text), item, widget (KComboBox, management_keys_to_ignore)
+#: rc.py:60
+msgctxt "@item:inlistbox automatic touchpad control"
+msgid "No keys"
+msgstr "Nessun tasto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:117
+#. i18n: ectx: property (text), item, widget (KComboBox, management_keys_to_ignore)
+#: rc.py:63
+msgctxt "@item:inlistbox automatic touchpad control"
+msgid "Modifier keys"
+msgstr "Tasti modificatori"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:122
+#. i18n: ectx: property (text), item, widget (KComboBox, management_keys_to_ignore)
+#: rc.py:66
+msgctxt "@item:inlistbox automatic touchpad control"
+msgid "Modifier combinations"
+msgstr "Combinazioni con modificatori"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:132
+#. i18n: ectx: property (label), widget (KDoubleNumInput, management_idle_time)
+#: rc.py:69
+msgctxt "@label:spinbox"
+msgid "Time to wait before switching the touchpad on again"
+msgstr "Tempo di attesa prima della riattivazione del touchpad"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadmanagementwidget.ui:138
+#. i18n: ectx: property (suffix), widget (KDoubleNumInput, management_idle_time)
+#: rc.py:72
+msgctxt "@label:spinbox"
+msgid " s"
+msgstr " s"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, ScrollingPage)
+#: rc.py:75
+msgctxt "@title:window scrolling settings"
+msgid "Scrolling"
+msgstr "Scorrimento"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, horizontalScrollingGroup)
+#: rc.py:78
+msgctxt "@title:group"
+msgid "Horizontal scrolling"
+msgstr "Scorrimento orizzontale"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_horizontal_two_finger_scrolling)
+#: rc.py:81
+msgctxt "@option:check"
+msgid "Horizontal scrolling with two fingers"
+msgstr "Scorrimento orizzontale con due dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_horizontal_edge_scrolling)
+#: rc.py:84
+msgctxt "@option:check"
+msgid "Horizontal scrolling at bottom edge"
+msgstr "Scorrimento orizzontale dal bordo in basso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:46
+#. i18n: ectx: property (label), widget (KIntNumInput, touchpad_horizontal_scrolling_distance)
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:91
+#. i18n: ectx: property (label), widget (KIntNumInput, touchpad_vertical_scrolling_distance)
+#: rc.py:87 rc.py:99
+msgctxt "@label:slider"
+msgid "Move distance to scroll a single line"
+msgstr "Distanza percorsa per scorrere una riga "
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:68
+#. i18n: ectx: property (title), widget (QGroupBox, verticalScrollingGroup)
+#: rc.py:90
+msgctxt "@title:group"
+msgid "Vertical scrolling"
+msgstr "Scorrimento verticale"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_vertical_two_finger_scrolling)
+#: rc.py:93
+msgctxt "@option:check"
+msgid "Vertical scrolling with two fingers"
+msgstr "Scorrimento verticale con due dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:84
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_vertical_edge_scrolling)
+#: rc.py:96
+msgctxt "@option:check"
+msgid "Vertical scrolling at right edge"
+msgstr "Scorrimento verticale dal bordo destro"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:115
+#. i18n: ectx: property (title), widget (QGroupBox, coasting)
+#: rc.py:102
+msgctxt "@option:check"
+msgid "Continue edge scrolling automatically"
+msgstr "Continua a scorrere automaticamente dal bordo"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:127
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_coasting_speed)
+#: rc.py:105
+msgctxt "@label:spinbox"
+msgid "Scrolling speed threshold to continue scrolling"
+msgstr "Velocità di scorrimento minima per lo scorrimento continuo"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:136
+#. i18n: ectx: property (specialValueText), widget (KDoubleNumInput, touchpad_coasting_speed)
+#: rc.py:108
+msgctxt "@item num input special value zero"
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:146
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_corner_coasting)
+#: rc.py:111
+msgctxt "@option:radio"
+msgid "Continue edge scrolling, while the finger stays in an edge corner"
+msgstr "Continua a scorrere tenendo fermo il dito su un angolo del bordo"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:156
+#. i18n: ectx: property (title), widget (QGroupBox, touchpad_circular_scrolling)
+#: rc.py:114
+msgctxt "@option:check"
+msgid "Horizontal circular scrolling"
+msgstr "Scorrimento circolare orizzontale"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:167
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.py:117
+msgctxt "@label:listbox"
+msgid "Area, which triggers circular scrolling"
+msgstr "Zona per attivare lo scorrimento circolare"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:178
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:120
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Any edge"
+msgstr "Tutti i bordi"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:183
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:123
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Top edge"
+msgstr "Bordo in alto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:188
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:126
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Top right corner"
+msgstr "Angolo destro in alto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:193
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:129
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Right edge"
+msgstr "Bordo destro"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:198
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:132
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Bottom right corner"
+msgstr "Angolo destro in basso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:203
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:135
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Bottom edge"
+msgstr "Bordo inferiore"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:208
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:138
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Bottom left corner"
+msgstr "Angolo sinistro in basso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:213
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:141
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Left edge"
+msgstr "Bordo sinistro"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:218
+#. i18n: ectx: property (text), item, widget (KComboBox, touchpad_circular_scrolling_trigger)
+#: rc.py:144
+msgctxt "@item:inlistbox circular scrolling trigger area"
+msgid "Top left corner"
+msgstr "Angolo sinistro in alto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:228
+#. i18n: ectx: property (toolTip), widget (KDoubleNumInput, touchpad_circular_scrolling_distance)
+#: rc.py:147
+msgctxt "@info:tooltip"
+msgid ""
+"Move the finger by this angle on the touchpad to scroll a single line.  The "
+"higher the angle, the slower circular scrolling becomes"
+msgstr ""
+"Sposta il dito sul touchpad di questo angolo (con moto circolare) per "
+"scorrere una singola riga. Più grande è l'angolo, più lento risulterà lo "
+"scorrimento circolare"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:231
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, touchpad_circular_scrolling_distance)
+#: rc.py:150
+msgctxt "@info:whatsthis"
+msgid ""
+"Move the finger by this angle on the touchpad to scroll a single line.  The "
+"higher the angle, the slower circular scrolling becomes"
+msgstr ""
+"Sposta il dito sul touchpad di questo angolo (con moto circolare) per "
+"scorrere una singola riga. Più grande è l'angolo, più lento risulterà lo "
+"scorrimento circolare"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:234
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_circular_scrolling_distance)
+#: rc.py:153
+msgctxt "@label:spinbox"
+msgid "Angle by which to move the finger to scroll a single line"
+msgstr "Angolo di cui muovere il dito per scorrere una riga"
+
+#. i18n: file: synaptiks/kde/widgets/ui/scrollingpage.ui:240
+#. i18n: ectx: property (suffix), widget (KDoubleNumInput, touchpad_circular_scrolling_distance)
+#: rc.py:156
+msgctxt "@label:spinbox"
+msgid " °"
+msgstr " °"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MotionPage)
+#: rc.py:159
+msgctxt "@title:window cursor motion settings"
+msgid "Cursor motion"
+msgstr "Spostamento del puntatore"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, speedGroup)
+#: rc.py:162
+msgctxt "@title:group"
+msgid "Cursor motion speed"
+msgstr "Velocità a cui spostare il puntatore"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:26
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_minimum_speed)
+#: rc.py:165
+msgctxt "@label:slider"
+msgid "Minimum speed"
+msgstr "Velocità minima"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:42
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_maximum_speed)
+#: rc.py:168
+msgctxt "@label:slider"
+msgid "Maximum speed"
+msgstr "Velocità massima"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:58
+#. i18n: ectx: property (toolTip), widget (KDoubleNumInput, touchpad_acceleration_factor)
+#: rc.py:171
+msgctxt "@info:tooltip"
+msgid ""
+"The acceleration factor defines the acceleration between minimum and maximum "
+"speed"
+msgstr ""
+"Il fattore di accelerazione determina l'accelerazione tra la velocità minima "
+"e quella massima"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:61
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, touchpad_acceleration_factor)
+#: rc.py:174
+msgctxt "@info:whatsthis"
+msgid ""
+"The acceleration factor defines the acceleration between minimum and maximum "
+"speed.  If minimum and maximum speed are equal, acceleration is not used."
+msgstr ""
+"Il fattore di accelerazione determina l'accelerazione tra la velocità minima "
+"e quella massima. Se la velocità minima e quella massima sono uguali non "
+"verrà usata alcuna accelerazione"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:64
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_acceleration_factor)
+#: rc.py:177
+msgctxt "@label:slider"
+msgid "Acceleration factor"
+msgstr "Fattore di accelerazione"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:86
+#. i18n: ectx: property (title), widget (QGroupBox, edgeMotionGroup)
+#: rc.py:180
+msgctxt "@title:group"
+msgid "Continue cursor motion when hitting the touchpad edge"
+msgstr ""
+"Continua a muovere il puntatore una volta raggiunto il bordo del touchpad"
+
+#. i18n: file: synaptiks/kde/widgets/ui/motionpage.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_edge_motion_always)
+#: rc.py:183
+msgctxt "@option:radio"
+msgid "For all movements, not only dragging"
+msgstr "Per tutti i movimenti, non solo il trascinamento"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, TappingPage)
+#: rc.py:186
+msgctxt "@title:window tapping settings"
+msgid "Tapping"
+msgstr "Colpetto clic"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, generalSettingsGroup)
+#: rc.py:189
+msgctxt "@title:group"
+msgid "General tapping settings"
+msgstr "Impostazioni generali del colpetto clic"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_fast_taps)
+#: rc.py:192
+msgctxt "@option:check"
+msgid "Make single taps faster and double taps slower (fast taps)"
+msgstr "Colpetto clic singolo più veloce e doppio colpetto clic più lento (colpetti "
+"rapidi)"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, tappingButtonGroup)
+#: rc.py:195
+msgctxt "@title:group"
+msgid "Mouse clicks triggered by tapping"
+msgstr "Clic del mouse richiamati dal colpetto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:49
+#. i18n: ectx: property (text), widget (QLabel, topLeftLabel)
+#: rc.py:198
+msgctxt "@label:listbox"
+msgid "Top left corner"
+msgstr "Angolo sinistro in alto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:76
+#. i18n: ectx: property (text), widget (QLabel, topRightLabel)
+#: rc.py:201
+msgctxt "@label:listbox"
+msgid "Top right corner"
+msgstr "Angolo destro in alto"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:107
+#. i18n: ectx: property (text), widget (QLabel, oneFingerLabel)
+#: rc.py:204
+msgctxt "@label:listbox"
+msgid "Tapping with one finger"
+msgstr "Colpetto clic con un dito"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:117
+#. i18n: ectx: property (text), widget (QLabel, twoFingerLabel)
+#: rc.py:207
+msgctxt "@label:listbox"
+msgid "Tapping with two fingers"
+msgstr "Colpetto clic con due dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:127
+#. i18n: ectx: property (text), widget (QLabel, threeFingerLabel)
+#: rc.py:210
+msgctxt "@label:listbox"
+msgid "Tapping with three fingers"
+msgstr "Colpetto clic con tre dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:158
+#. i18n: ectx: property (text), widget (QLabel, bottomLeftLabel)
+#: rc.py:213
+msgctxt "@label:listbox"
+msgid "Bottom left corner"
+msgstr "Angolo sinistro in basso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:185
+#. i18n: ectx: property (text), widget (QLabel, bottomRightLabel)
+#: rc.py:216
+msgctxt "@label:listbox"
+msgid "Bottom right corner"
+msgstr "Angolo destro in basso"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:202
+#. i18n: ectx: property (title), widget (QGroupBox, touchpad_tap_and_drag_gesture)
+#: rc.py:219
+msgctxt "@option:check"
+msgid ""
+"Drag items by tapping the touchpad and then immediately touching it again"
+msgstr ""
+"Trascina gli oggetti colpendo lievemente il touchpad e subito dopo "
+"toccandolo ancora"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:211
+#. i18n: ectx: property (text), widget (QCheckBox, touchpad_locked_drags)
+#: rc.py:222
+msgctxt "@option:check"
+msgid ""
+"Continue dragging when releasing the finger until the touchpad is touched "
+"again"
+msgstr ""
+"Continua a trascinare dopo aver rilasciato il dito finché non si tocca "
+"di nuovo il touchpad"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:221
+#. i18n: ectx: property (label), widget (KDoubleNumInput, touchpad_locked_drags_timeout)
+#: rc.py:225
+msgctxt "@label:spinbox"
+msgid "Timeout to automatically stop dragging"
+msgstr "Tempo oltre cui il trascinamento si disattiverà automaticamente"
+
+#. i18n: file: synaptiks/kde/widgets/ui/tappingpage.ui:230
+#. i18n: ectx: property (suffix), widget (KDoubleNumInput, touchpad_locked_drags_timeout)
+#: rc.py:228
+msgctxt "@label:spinbox seconds"
+msgid " s"
+msgstr " s"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, TouchpadInformationWidget)
+#: rc.py:231
+msgctxt "@title:window"
+msgid "Touchpad information"
+msgstr "Informazioni sul touchpad"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.py:234
+msgctxt "@label:spinbox"
+msgid "How many fingers are detected by this touchpad?"
+msgstr "Quante dita sono state rilevate per questo touchpad?"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:62
+#. i18n: ectx: property (title), widget (QGroupBox, twoFingerEmulationBox)
+#: rc.py:237
+msgid "Two-finger emulation"
+msgstr "Emulazione modalità due dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:68
+#. i18n: ectx: property (text), widget (QLabel, pressureLabel)
+#: rc.py:240
+msgctxt "@label touchpad information detection of pressure of a touch"
+msgid "Pressure detection"
+msgstr "Rilevamento pressione"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:78
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: rc.py:243
+msgctxt "@label touchpad information detection of finger width"
+msgid "Finger width detection"
+msgstr "Rilevamento ampiezza dito"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:88
+#. i18n: ectx: property (text), widget (QLabel, emulationLabel)
+#: rc.py:246
+msgctxt "@label touchpad information two-finger emulation supported"
+msgid "Two-finger emulation"
+msgstr "Emulazione modalità due dita"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:131
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.py:249
+msgctxt "@title:group touchpad information mouse button support"
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:137
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#: rc.py:252
+msgctxt "@label touchpad information mouse button"
+msgid "Left button"
+msgstr "Pulsante sinistro"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:147
+#. i18n: ectx: property (text), widget (QLabel, middleLabel)
+#: rc.py:255
+msgctxt "@label touchpad information mouse button"
+msgid "Middle button"
+msgstr "Pulsante centrale"
+
+#. i18n: file: synaptiks/kde/widgets/ui/touchpadinformationwidget.ui:157
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#: rc.py:258
+msgctxt "@label touchpad information mouse button"
+msgid "Right button"
+msgstr "Pulsante destro"
+
+#: synaptiks/kde/__init__.py:56
+msgctxt "Program name"
+msgid "synaptiks"
+msgstr "synaptiks"
+
+#: synaptiks/kde/__init__.py:60
+msgctxt "About data copyright"
+msgid "Copyright © 2009, 2010, 2011 Sebastian Wiesner"
+msgstr "Copyright © 2009, 2010, 2011 Sebastian Wiesner"
+
+#: synaptiks/kde/__init__.py:63
+msgctxt "custom author text plain text"
+msgid "Please report bugs to the issue tracker at %1"
+msgstr "Segnala un bug alla pagina dei problemi in %1"
+
+#: synaptiks/kde/__init__.py:66
+msgctxt "@info custom author text rich text"
+msgid "Please report bugs to the <link url=\"%1\">issue tracker</link>."
+msgstr "Segnala un bug alla <link url=\"%1\">pagina dei problemi</link>."
+
+#: synaptiks/kde/__init__.py:72
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Fabio S."
+
+#: synaptiks/kde/__init__.py:73
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "fa0sck@gmail.com"
+
+#: synaptiks/kde/__init__.py:74
+msgctxt "author name"
+msgid "Sebastian Wiesner"
+msgstr "Sebastian Wiesner"
+
+#: synaptiks/kde/__init__.py:75
+msgctxt "author task"
+msgid "Maintainer"
+msgstr "Maintainer"
+
+#: synaptiks/kde/__init__.py:77
+msgctxt "credit name"
+msgid "Valentyn Pavliuchenko"
+msgstr "Valentyn Pavliuchenko"
+
+#: synaptiks/kde/__init__.py:78
+msgctxt "credit task"
+msgid "Debian packaging, russian translation, bug reporting and testing"
+msgstr "Debian packaging, russian translation, bug reporting and testing"
+
+#: synaptiks/kde/error.py:48
+msgctxt "@info NoTouchpadError error message"
+msgid ""
+"<title>No touchpad found</title><para>No touchpad was found in this system.  "
+"If the system has a touchpad, please make sure that the "
+"<application>synaptics</application> driver is properly installed and "
+"configured.</para><para>If your touchpad is not found, though the driver is "
+"installed and configured correctly, please compile detailed information "
+"about your touchpad hardware and report this issue to the <link url="
+"\"%1\">issue tracker</link>.</para>"
+msgstr ""
+"<title>Nessun touchpad rilevato</title><para>In questo sistema non è stato "
+"rilevato alcun touchpad. Se il sistema è dotato di un touchpad, assicurarsi "
+"che il driver <application>synaptics</application> sia correttamente "
+"installato e configurato.</para><para>Se il touchpad non è stato rilevato, "
+"nonostante il driver risulti installato e correttamente configurato, ti "
+"chiediamo di raccogliere informazioni dettagliate sull'hardware del tuo "
+"touchpad e di segnalare il problema alla <link url=\"%1\">pagina apposita<"
+"/link>.</para>"
+
+#: synaptiks/kde/error.py:61
+msgctxt "@info XInputVersionError error message"
+msgid ""
+"<title>Version error</title><para>The version of the XInput extension "
+"installed on your system is too old.  Version %1 was found, but at least "
+"version %2 is required.</para><para>If you want to be able to configure your "
+"touchpad, you have to upgrade your system to a recent release of the Xorg "
+"display server.  This may likely involve a complete upgrade of your system.  "
+"Please excuse this inconvenience, but there is no way to make touchpad "
+"configuration work on systems as old as yours.</para>"
+msgstr ""
+"<title>Errore di versione</title><para>La versione del modulo XInput "
+"installato nel sistema è troppo vecchia.  È stata trovata la versione %1, ma "
+"è richiesta almeno la versione %2.</para><para>Per essere in grado di "
+"configurare il touchpad, è necessario aggiornare il proprio sistema ad una "
+"versione recente del server grafico Xorg display server.  Questo potrebbe "
+"implicare un aggiornamento completo del proprio sistema.  Ci scusiamo per "
+"l'inconveniente, ma non esiste alcun modo per far funzionare la "
+"configurazione del touchpad  su sistemi vecchi come questo.</para>"
+
+#: synaptiks/kde/error.py:74
+msgctxt "@info error message for unexpected errors"
+msgid ""
+"<title>Unexpected error occurred</title><para>An unexpected error occurred: "
+"<message>%2</message></para><para>Please report this issue to the <link url="
+"\"%1\">issue tracker</link>.</para>"
+msgstr ""
+"<title>Errore imprevisto</title><para>Si è verificato un errore imprevisto: <"
+"message>%2</message></para><para>Si prega di segnalare il problema alla <link "
+"url=\"%1\">pagina di segnalazione errori</link>.</para>"
+
+#: synaptiks/kde/trayapplication.py:161
+msgctxt "@action:inmenu"
+msgid "Touchpad on"
+msgstr "Touchpad attivo"
+
+#: synaptiks/kde/trayapplication.py:165
+msgctxt "Touchpad toggle shortcut"
+msgid "Ctrl+Alt+T"
+msgstr "Ctrl+Alt+T"
+
+#: synaptiks/kde/trayapplication.py:216
+msgctxt "touchpad switched notification"
+msgid "Touchpad switched off"
+msgstr "Touchpad disattivato"
+
+#: synaptiks/kde/trayapplication.py:220
+msgctxt "touchpad switched notification"
+msgid "Touchpad switched on"
+msgstr "Touchpad attivato"
+
+#: synaptiks/kde/trayapplication.py:266
+msgctxt "tray application description"
+msgid "touchpad management application"
+msgstr "programma per la gestione dei touchpad"
+
+#: synaptiks/kde/widgets/kcm.py:61
+msgctxt "kcmodule description"
+msgid "Touchpad configuration"
+msgstr "Configurazione del touchpad"
+
+#: synaptiks/kde/widgets/kcm.py:65
+msgctxt "@info:tooltip synaptiks kcmodule"
+msgid ""
+"<title>Touchpad configuration</title><para>This module lets you configure "
+"your touchpad.</para>"
+msgstr ""
+"<title>Configurazione del touchpad</title><para>Modulo per configurare il tuo "
+"touchpad.</para>"
+
+#: synaptiks/kde/widgets/touchpad.py:75
+msgctxt "@info touchpad name"
+msgid "<title><resources>%1</resource></title>"
+msgstr "<title><resources>%1</resource></title>"
+
+#: synaptiks/kde/widgets/touchpad.py:125
+msgctxt "@item coasting speed special value"
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: synaptiks/kde/widgets/touchpad.py:225
+msgctxt "@title:window"
+msgid "Touchpad configuration"
+msgstr "Configurazione del touchpad"
+
+#: synaptiks/kde/widgets/util.py:51
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: synaptiks/kde/widgets/util.py:53
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Left mouse button"
+msgstr "Tasto sinistro del mouse"
+
+#: synaptiks/kde/widgets/util.py:55
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Middle mouse button"
+msgstr "Tasto centrale del mouse"
+
+#: synaptiks/kde/widgets/util.py:57
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Right mouse button"
+msgstr "Tasto destro del mouse"
+
+

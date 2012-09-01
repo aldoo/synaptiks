@@ -18,8 +18,10 @@ Name=Touchpad
 Name[de]=Touchpad
 Name[fr]=Pavé tactile
 Name[ru]=Сенсорная панель
+Name[it]=Touchpad
 
 Comment=Touchpad configuration
 Comment[de]=Touchpad-Konfiguration
 Comment[fr]=Configuration du pavé tactile
 Comment[ru]=Настройка сенсорной панели
+Comment[it]=Configurazione del touchpad
