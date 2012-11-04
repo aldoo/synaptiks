@@ -20,8 +20,5 @@ Name[it]=Synaptiks
 GenericName=Touchpad management
 GenericName[de]=Touchpad-Verwaltung
 GenericName[ru]=Настройка сенсорной панели
-<<<<<<< HEAD
 GenericName[uk]=Налаштування сенсорної панелі
-=======
-GenericName=[it]Gestione del touchpad
->>>>>>> ascaf0/master
+GenericName[it]=Gestione del touchpad

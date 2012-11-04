@@ -4,15 +4,20 @@ Comment=synaptiks
 Comment[uk]=synaptiks
 Name=synaptiks
 Name[uk]=synaptiks
+Name[it]=synaptiks
 
 [Event/touchpadOn]
 Name=Touchpad is on
 Name[uk]=Сенсорний пристрій увімкнено
+Name[ui]=Il touchpad è attivo
 Comment=The touchpad is on now
 Comment[uk]=Тепер сенсорний пристрій увімкнено
+Comment[it]=Il touchpad è ora attivato
 
 [Event/touchpadOff]
 Name=Touchpad is off
 Name[uk]=Сенсорний пристрій вимкнено
+Name[it]=Il touchpad non è attivo
 Comment=The touchpad is off now
 Comment[uk]=Тепер сенсорний пристрій вимкнено
+Comment[it]=Il touchpad è ora disattivato
