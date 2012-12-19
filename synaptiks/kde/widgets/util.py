@@ -54,5 +54,17 @@ class MouseButtonComboBox(KComboBox):
             i18nc('@item:inlistbox mouse button triggered by tapping',
                   'Middle mouse button'),
             i18nc('@item:inlistbox mouse button triggered by tapping',
-                   'Right mouse button')
+                   'Right mouse button'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Scroll up'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Scroll down'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Scroll left'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Scroll right'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Previous location'),
+            i18nc('@item:inlistbox mouse button triggered by tapping',
+                   'Next location')
             ])
